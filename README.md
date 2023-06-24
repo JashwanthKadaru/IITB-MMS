@@ -1,6 +1,6 @@
 # Project Info
 
-This project was first conceived by me independently in April 2023. I started working on the project while simultaneously getting my self wet with web development tutorials. This project was again restarted from scratch on the May 24th 2023 (immediately after finishing semester course work.). After 10 days of struggle I decided to restart it from scratch again in first week of June 2023. 
+This project was first conceived by me independently in April 2023. I started working on the project while simultaneously getting my self wet with web development tutorials. This project was again restarted from scratch on the May 24th 2023 (immediately after finishing semester course work.). After 10 days of struggle I decided to restart it from scratch again on June 4th 2023. 
 
 This is what LMS is to our academics, except for the fact that this is for mess management. I chose to call this IIITB Mess App. 
 
