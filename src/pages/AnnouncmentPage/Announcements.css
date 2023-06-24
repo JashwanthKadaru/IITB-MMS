@@ -1,0 +1,144 @@
+@media screen and (min-width: 750px) and (max-width:2000px){
+.announcements {
+    width: 100vw;
+    padding: 0 2px;
+    padding-left: 0px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.announcements .page-path{
+    /* border: 1px solid black; */
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: rgb(39, 83, 48);
+    text-decoration: underline;
+    margin: 0;
+    margin-bottom: 25px;
+    padding-left: 5px;
+    cursor: pointer;
+    width:fit-content;
+}
+
+.announcements .page-path .link {
+    display: inline;
+}
+
+.announcements .page-path span {
+    margin: 0 -1px;
+}
+
+.announcements .page-path:hover {
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.35);
+}
+
+.announcements .announcements-grid-layout {
+    height: 65vh;
+    width:  100vw;
+    padding: 20px 20px;
+    background-color: rgb(97, 227, 173);
+}
+
+.announcements .grid-title-input {
+    /* Styles */
+    height: fit-content;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    cursor:default;
+
+    margin-top: 11vh;
+   
+}
+.announcements .grid-title-input .mini-title h2 {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(6, 145, 71,0.75);
+    font-size: 5vw;
+    text-align: center;
+}
+
+.announcements .grid-title-input .mini-title p {
+    margin: 0;
+    margin-top: 1.5vh;
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgba(0,0,0,0.75);
+    text-align: center;
+}
+
+.announcements .grid-title-input .mini-title {
+    padding-top: 15px;
+    /* padding-bottom: 0; */
+    margin-bottom: min(2vw, 30px);
+    -webkit-transition: 0.3s;
+}
+
+.announcements .grid-title-input .mini-title:hover {
+    text-shadow: 3px 3px 0.1px rgba(0,0,0,0.15);
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-bottom: min(2vw, 20px);
+}
+
+.announcements .grid-title-input .page-info {
+    display: inline-block;
+    font-size: 0.72rem;
+    width: 700px;
+    padding-left: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.announcements .grid-title-input .page-info:hover {
+    text-shadow: 0px 0 0.2px rgba(0,0,0,0.65);
+    font-weight: 500;
+}
+
+.announcements-body {
+    margin: 0 2vw;
+    margin-bottom: 2rem;
+    padding: 2px;
+    margin-top: 2rem;
+    border: 2px solid rgba(0,0,0,0.55);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.75);
+    background-color: rgb(223, 244, 234);
+}
+
+.announcements-body .announcements-button {
+    /* display: inline-block; */
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 20px;
+    background-color: rgb(97, 227, 173);
+    border: 1px solid rgba(0,0,0,0.75);
+    font-size: 0.75rem;
+    text-shadow: 0 0 0.5px rgba(0,0,0,0.95);
+    transition: 0.2s;
+}
+
+.announcements-button:hover {
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.75);
+    transform: scale(1.05);
+}
+
+.announcements-list {
+    width:100%;
+    margin: 0 auto;
+    /* border: 1px solid rgba(0,0,0,0.75); */
+    padding-left: 2rem;
+    padding-top: 1rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+}

@@ -1,0 +1,67 @@
+.complaint {
+    width: 80%;
+    min-width: 600px;
+    max-width: 950px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid rgba(0,0,0,0.45);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.45);
+    transition: 0.2s;
+}
+.complaint .complaint-head {
+    /* border: 1px solid black; */
+    margin: 0;
+    border-bottom: 2px solid black;
+    padding: 0;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-bottom: 5px;
+    padding-right: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(125, 234, 187);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.complaint-head h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding-bottom: 5px;
+    color: black;
+    
+}
+
+.complaint-head p {
+    margin: 10px 0;
+    margin-bottom: 5px;
+    font-size: 0.65rem;
+    color: rgba(0,0,0,0.75);
+    font-weight: 600;
+}
+
+.complaint .complaint-preview {
+    margin: 0;
+    font-size: 0.75rem;
+    padding: 1vw 2vw;
+    padding-right: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: transparent;
+}
+
+.complaint:hover {
+    text-shadow: 0 0 1px rgba(0,0,0,0.35);
+    margin-top: 1.4rem;
+    margin-bottom: 1.8rem;
+}
+
+.complaint:hover .complaint-head {
+    background-color: rgb(78, 226, 162);
+}

@@ -1,0 +1,53 @@
+/* CSS ANIMATIONS FOR LINKS */
+/* use transition property */
+@media screen and (min-width: 700px){
+.navbar {
+    padding: 10px;
+    background-color: rgb(110, 251, 202);
+    border-bottom: 1px solid black; 
+    width: 100vw;   
+}
+
+.navlist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navli {
+    padding: 0;
+    display: inline-block;
+    margin: 6px 12.5px;
+    transition: 0.2s;
+}
+
+.navLink {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    transition: 0.2s;
+    font-size: 0.85rem;
+    border-bottom: 2px solid transparent;
+}
+
+.navLink:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.profile{
+    color: white;
+    transform: scale(1.75);
+    position:absolute;
+    right: 0px;
+    top: 18px;
+    padding: 0px 20px;   
+}
+
+.profile:hover {
+    color: black;
+}
+}

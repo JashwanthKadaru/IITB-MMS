@@ -1,0 +1,51 @@
+.announcement {
+    margin: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+    width: 80%;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.announcement:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.75);
+    text-shadow: 0 0 0.5px rgba(0,0,0,0.75);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.announcement-head {
+    background-color: rgb(154, 238, 203);
+    padding: 10px 10px;
+    border-bottom: 1px solid black;
+}
+
+.announcement-head h4 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: rgb(6, 145, 71,0.95)
+}
+
+.announcement-head p {
+    margin: 0;
+    margin-top: 0.25rem;
+    font-size: 0.6rem;
+    color: rgba(4, 86, 42, 0.95);
+    font-weight: 600;
+}
+
+.announcement-body {
+    margin: 0;
+    font-size: 0.75rem;
+    padding: 2px 0;
+    padding-right: 15px;
+    background-color: rgb(237, 249, 244);
+}
+
+.announcement-body p {
+    padding-left: 10px;
+    color: black;
+}

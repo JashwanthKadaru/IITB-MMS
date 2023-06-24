@@ -1,0 +1,126 @@
+@media screen and (min-width: 750px) and (max-width:2000px){
+.SignIn {
+    width: 100vw;
+    padding: 0 2px;
+    padding-left: 0px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.SignIn .page-path{
+    /* border: 1px solid black; */
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: rgb(39, 83, 48);
+    text-decoration: underline;
+    margin: 0;
+    margin-bottom: 25px;
+    padding-left: 5px;
+    cursor: pointer;
+    width:fit-content;
+    opacity: 0;
+}
+
+.page-path span {
+    margin: 0 -1px;
+}
+
+.page-path:hover {
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.35);
+}
+
+.signin-grid-layout {
+    height: 65vh;
+    width:  100vw;
+    padding: 20px 20px;
+    background-color: rgb(97, 227, 173);
+}
+
+.grid-title-input {
+    /* Styles */
+    height: fit-content;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    cursor:default;
+
+    margin-top: 11vh;
+   
+}
+.grid-title-input .mini-title h2 {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(6, 145, 71,0.75);
+    font-size: 5vw;
+    text-align: center;
+}
+
+.grid-title-input .mini-title p {
+    margin: 0;
+    margin-top: 1.5vh;
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgba(0,0,0,0.75);
+    text-align: center;
+}
+
+.grid-title-input .mini-title {
+    padding-top: 5px;
+    margin-bottom: 5vh;
+    -webkit-transition: 0.3s;
+}
+.grid-title-input .mini-title:hover {
+    text-shadow: 3px 3px 0.1px rgba(0,0,0,0.15);
+    padding-top: 3px;
+}
+
+.grid-title-input .page-info {
+    display: inline-block;
+    font-size: 0.7rem;
+    width: 700px;
+    padding-left: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid-title-input .page-info:hover {
+    text-shadow: 0px 0 0.2px rgba(0,0,0,0.65);
+    font-weight: 500;
+}
+
+.grid-title-input .input-div {
+    border: 1px solid black;
+    border-style: hidden;
+    margin-top: 4.5vh;
+    margin-left: 20px;
+    font-size: 0.75rem;
+    border-radius: 10px;
+    padding-left: 5px;
+    background-color: rgb(97, 227, 173);
+    transition: 0.2s;
+}
+
+.grid-title-input .input-div:hover {
+    box-shadow: 0.5px 0.5px 2px 0.5px rgba(0,0,0,0.5);
+    margin-top: 3.5vh;
+    text-shadow: 0px 0 0.2px rgba(0,0,0,0.5);
+}
+
+.grid-title-input .input-div label {
+    margin-right: 5px;
+    font-weight: 600;
+} 
+
+.grid-title-input .input-div input {
+    cursor: pointer;
+    margin: 0px;
+    border: none;
+    border-radius: 10px;
+    padding-right: 1px;
+    background-color: transparent;
+    color: white
+} 
+}
